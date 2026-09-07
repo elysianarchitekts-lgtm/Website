@@ -1,6 +1,7 @@
 "use client";
 
 import { useEffect, useRef } from "react";
+import Image from "next/image";
 import { gsap } from "gsap";
 
 export default function Loader() {
@@ -24,7 +25,17 @@ export default function Loader() {
 
   return (
     <div className="loader" ref={loaderRef}>
-      <div className="loader-logo">Elysian Architekts</div>
+      <div className="loader-brand">
+        <Image
+          src="/logo-mark.png"
+          alt="Elysian Emblem"
+          width={70}
+          height={70}
+          className="loader-logo-img"
+          priority
+        />
+        <div className="loader-logo">Elysian Architekts</div>
+      </div>
       <div className="loader-bar" />
     </div>
   );

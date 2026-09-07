@@ -2,6 +2,7 @@
 
 import { useEffect, useRef, useState } from "react";
 import Link from "next/link";
+import Image from "next/image";
 
 export default function Navbar() {
   const [scrolled, setScrolled] = useState(false);
@@ -16,7 +17,15 @@ export default function Navbar() {
   return (
     <nav ref={navRef} className={`nav${scrolled ? " scrolled" : ""}`} aria-label="Main navigation">
       <Link href="/" className="nav-logo">
-        Elysian Architekts
+        <Image
+          src="/logo-mark.png"
+          alt="Elysian Architekts Emblem"
+          width={36}
+          height={36}
+          className="nav-logo-img"
+          priority
+        />
+        <span className="nav-logo-text">ELYSIAN ARCHITEKTS</span>
       </Link>
 
       <ul className="nav-links">

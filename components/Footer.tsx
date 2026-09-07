@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 
 export default function Footer() {
   const year = new Date().getFullYear();
@@ -7,8 +8,17 @@ export default function Footer() {
     <footer className="footer" aria-label="Site footer">
       <div className="footer-top">
         {/* Brand */}
-        <div>
-          <span className="footer-brand-name">Elysian Architekts</span>
+        <div className="footer-brand-col">
+          <div className="footer-brand-header">
+            <Image
+              src="/logo-mark.png"
+              alt="Elysian Architekts Emblem"
+              width={40}
+              height={40}
+              className="footer-logo-img"
+            />
+            <span className="footer-brand-name">Elysian Architekts</span>
+          </div>
           <p className="footer-tagline">
             We craft interior environments of extraordinary beauty — spaces
             where architecture, art, and life converge in perfect harmony.
