@@ -69,12 +69,12 @@ export default function Footer() {
               </a>
             </li>
             <li>
-              <a href="tel:+919999000111">+91 9999 000 111</a>
+              <a href="tel:+919535213149">+91 9535 213 149</a>
             </li>
             <li>
               <a href="#" style={{ lineHeight: 1.7 }}>
-                Studio 14, The Design Quarter<br />
-                Bandra West, Mumbai 400050
+                Elysian Architekts, siddi road 7th Cross Rd, 2nd stage, Gokula Extension <br />
+                Tumakur, Karnataka 572103
               </a>
             </li>
           </ul>
