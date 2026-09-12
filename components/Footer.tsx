@@ -70,6 +70,8 @@ export default function Footer() {
             </li>
             <li>
               <a href="tel:+919535213149">+91 9535 213 149</a>
+                                          +91 9535 152 222</a>
+                                          +91 9591 977 238</a>
             </li>
             <li>
               <a href="#" style={{ lineHeight: 1.7 }}>
