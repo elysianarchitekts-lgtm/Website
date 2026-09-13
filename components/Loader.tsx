@@ -29,8 +29,8 @@ export default function Loader() {
         <Image
           src="/logo-mark.png"
           alt="Elysian Emblem"
-          width={70}
-          height={70}
+          width={90}
+          height={90}
           className="loader-logo-img"
           priority
         />
