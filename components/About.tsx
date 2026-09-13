@@ -151,8 +151,8 @@ export default function About() {
         <div className="about-stats" ref={statsRef}>
           {[
             { num: 60, label: "Projects Completed" },
-            { num: 07, label: "Years Experience" },
-            { num: 02, label: "Design Awards" },
+            { num: 7, label: "Years Experience" },
+            { num: 2, label: "Design Awards" },
             { num: 98, label: "Client Satisfaction %" },
           ].map(({ num, label }) => (
             <div className="stat" key={label}>
