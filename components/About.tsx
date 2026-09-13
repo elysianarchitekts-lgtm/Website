@@ -126,29 +126,33 @@ export default function About() {
 
         <h2 className="section-title">
           Designing the <em>Extraordinary</em><br />
-          Since 2009
+          Since 2021
         </h2>
 
         <div className="gold-divider" />
 
         <p className="section-body">
-          Elysian Architekts is a boutique interior design and architecture studio
-          renowned for crafting spaces of rare beauty and functional excellence.
-          We believe that great design is a conversation between art, architecture,
-          and the people who inhabit it.
+          Elysian Architekts believes that architecture is more than just building 
+          spaces - Crafting havens of pure elegance and inspired designs. Guided by
+          our Belief "Less is divine, more is eternal", we harmonize design with 
+          elegance, utility, and timeless beauty, ensuring every detail resonates.
         </p>
 
         <p className="section-body" style={{ marginTop: "1.5rem" }}>
-          Every project begins with deep listening — understanding how you live,
-          what you value, and what you dream of. From there, we translate
-          aspirations into architectural poetry.
+          Our work is rooted in minimalism, where every line, curve, and detail
+          serves a purpose. We transform visions into spaces that breathe serenity,
+          embody harmony, and elevate everday living. Whether it's a home, workspace,
+          or public environment, our designs aspire to be both profoundly human 
+          and spiritually uplifting.
+          Discover how we turn simplicity into sophistication, and inspiration
+          into reality.
         </p>
 
         <div className="about-stats" ref={statsRef}>
           {[
-            { num: 280, label: "Projects Completed" },
-            { num: 15, label: "Years Experience" },
-            { num: 42, label: "Design Awards" },
+            { num: 60+, label: "Projects Completed" },
+            { num: 07+, label: "Years Experience" },
+            { num: 02+, label: "Design Awards" },
             { num: 98, label: "Client Satisfaction %" },
           ].map(({ num, label }) => (
             <div className="stat" key={label}>
