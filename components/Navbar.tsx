@@ -20,8 +20,8 @@ export default function Navbar() {
         <Image
           src="/logo-mark.png"
           alt="Elysian Architekts Emblem"
-          width={90}
-          height={90}
+          width={95}
+          height={95}
           className="nav-logo-img"
           priority
         />
