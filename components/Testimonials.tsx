@@ -8,28 +8,28 @@ gsap.registerPlugin(ScrollTrigger);
 
 const TESTIMONIALS = [
   {
-    text: "Elysian Architekts transformed our apartment into a masterpiece. Every material, every corner speaks of extraordinary craftsmanship. It's no longer just a home — it's an experience.",
-    name: "Arjun & Priya Mehta",
+    text: "Elysian Architekts transformed our home into a masterpiece. Every material, every corner speaks of extraordinary craftsmanship. It's no longer just a home — it's an experience.",
+    name: "Arjun & Priya",
     role: "Residential Client",
     initials: "AM",
     stars: 5,
   },
   {
-    text: "Working with the Elysian team felt like a symphony — each detail played its part perfectly. Our restaurant has won three design awards since opening. The transformation was beyond imagining.",
-    name: "Chef Rahul Sharma",
-    role: "Restaurant Owner",
+    text: "Working with the Elysian team felt like a symphony — each detail played its part perfectly. Everyone praised the Interior Designs that transformation was beyond imagining.",
+    name: "Rahul",
+    role: "Residential Client",
     initials: "RS",
     stars: 5,
   },
   {
     text: "They listened to our dreams and created something far beyond what we envisioned. The attention to detail is unparalleled. Every guest who walks in is left speechless.",
-    name: "Natasha & Vikram Singh",
-    role: "Villa Client",
+    name: "Natasha & Vikram",
+    role: "Residential Client",
     initials: "NS",
     stars: 5,
   },
   {
-    text: "Our headquarters now reflects our brand perfectly. Elysian understood not just our aesthetic vision but our culture and values. The workspace has genuinely transformed how our team feels.",
+    text: "Elysian Architekts understood not just our aesthetic vision but our culture and values.",
     name: "Kavya Reddy",
     role: "Residential Client",
     initials: "KR",
@@ -37,7 +37,7 @@ const TESTIMONIALS = [
   },
   {
     text: "The most professional design studio I have worked with. The timeline was respected, the budget honored, and the final result was breathtaking. I cannot recommend them highly enough.",
-    name: "Siddharth Nair",
+    name: "Siddharth",
     role: "Property Developer",
     initials: "SN",
     stars: 5,
