@@ -68,7 +68,7 @@ export default function CtaBanner() {
             <span>Book a Consultation</span>
           </a>
           <a
-            href="tel:+91-9535-213-149"
+            href="tel:+91-9535-152-222"
             style={{
               color: "rgba(255,255,255,0.7)",
               fontSize: "0.72rem",
