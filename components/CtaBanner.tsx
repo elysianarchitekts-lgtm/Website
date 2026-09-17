@@ -64,7 +64,7 @@ export default function CtaBanner() {
           Architekts can transform your vision into extraordinary reality.
         </p>
         <div style={{ display: "flex", gap: "1.5rem", justifyContent: "center", flexWrap: "wrap" }}>
-          <a href="mailto:hello@elysianarchitekts.com" className="btn-primary">
+          <a href="mailto:elysianarchitekts@gmail.com" className="btn-primary">
             <span>Book a Consultation</span>
           </a>
           <a
@@ -81,7 +81,7 @@ export default function CtaBanner() {
             }}
           >
             <span style={{ color: "var(--gold)", fontSize: "0.9rem" }}>☎</span>
-            +91 9535 213 149
+            +91 9535 152 222
           </a>
         </div>
       </div>
