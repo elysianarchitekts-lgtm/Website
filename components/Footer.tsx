@@ -64,8 +64,8 @@ export default function Footer() {
           <span className="footer-col-title">Contact</span>
           <ul className="footer-links">
             <li>
-              <a href="mailto:hello@elysianarchitekts.com" style={{ lineHeight: 1.6 }}>
-                hello@elysianarchitekts.com
+              <a href="mailto:elysianarchitekts@gmail.com" style={{ lineHeight: 1.6 }}>
+                elysianarchitekts@gmail.com
               </a>
             </li>
             <li>              
