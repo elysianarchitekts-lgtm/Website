@@ -12,37 +12,37 @@ const PROJECTS = [
     src: "/interior_upscaled__9d4d425f-f159-4f3d-8060-d24dd167e724.png",
     alt: "Master Suite — The Elysian Penthouse",
     label: "The Elysian Penthouse",
-    cat: "Residential · Mumbai",
+    cat: "Residential",
   },
   {
     src: "/interior__0f2672a6-6540-4241-aca7-5f81733a6fed.png",
     alt: "Contemporary living room with ambient lighting",
     label: "Casa Lumina",
-    cat: "Residential · Delhi",
+    cat: "Residential",
   },
   {
     src: "/11.png",
     alt: "Botanical spa bathroom",
     label: "Verdant Spa Suite",
-    cat: "Hospitality · Goa",
+    cat: "Hospitality",
   },
   {
     src: "/14.png",
     alt: "Modern dining area with glass cabinet",
     label: "Saveur Dining",
-    cat: "Restaurant · Bangalore",
+    cat: "Restaurant",
   },
   {
     src: "/6.png",
     alt: "Luxury walk-in wardrobe with swing",
     label: "The Wardrobe Loft",
-    cat: "Residential · Pune",
+    cat: "Residential",
   },
   {
     src: "/03.png",
     alt: "Bespoke walk-in dressing room",
     label: "Dressing Atelier",
-    cat: "Residential · Hyderabad",
+    cat: "Residential",
   },
 ];
 
