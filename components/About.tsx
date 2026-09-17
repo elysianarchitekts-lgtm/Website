@@ -106,7 +106,7 @@ export default function About() {
         </div>
 
         <div className="about-badge">
-          <span className="about-badge-num">15</span>
+          <span className="about-badge-num">5</span>
           <span className="about-badge-label">Years of<br />Excellence</span>
         </div>
 
@@ -151,9 +151,9 @@ export default function About() {
         <div className="about-stats" ref={statsRef}>
           {[
             { num: 60, label: "Projects Completed" },
-            { num: 7, label: "Years Experience" },
+            { num: 5, label: "Years Experience" },
             { num: 2, label: "Design Awards" },
-            { num: 98, label: "Client Satisfaction %" },
+            { num: 99, label: "Client Satisfaction %" },
           ].map(({ num, label }) => (
             <div className="stat" key={label}>
               <span className="stat-num" data-target={num}>
